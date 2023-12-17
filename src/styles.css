@@ -4,7 +4,7 @@
   --primary-color: #bd5746;
   --secondary-color: #14223b;
   --background-color: #f1eedd;
-  --transition: all 0.3s ease-in-out;
+  --transition: all 0.2s ease-in-out;
 }
 .hero {
   background-color: var(--background-color);
@@ -29,7 +29,7 @@ h3 {
 .btn-custom {
   background-color: var(--secondary-color);
   color: var(--background-color);
-  padding: 10px 20px;
+  padding: 15px 30px;
   border-radius: 50px 50px;
   margin: 30px auto;
   font-size: 18px;
@@ -37,4 +37,7 @@ h3 {
 }
 .btn-custom:hover {
   background-color: var(--secondary-color);
+}
+.auto-type {
+  text-decoration: underline;
 }
