@@ -6,12 +6,6 @@
   --background-color: #f1eedd;
   --transition: all 0.2s ease-in-out;
 }
-.hero {
-  background-color: var(--background-color);
-  text-align: center;
-  color: var(--primary-color);
-  padding: 170px 20px;
-}
 h1 {
   font-size: 96px;
 
@@ -26,18 +20,42 @@ h3 {
   font-size: 36px;
   font-family: var(--default-font);
 }
-.btn-custom {
+h4 {
+  text-align: center;
+  font-weight: 200;
+  color: var(--primary-color);
+  margin: 20px auto 50px;
+}
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+  color: var(--primary-color);
+  padding: 170px 20px;
+}
+.section-one {
+  background-color: var(--secondary-color);
+  padding: 50px 10px;
+}
+.btn-branding {
   background-color: var(--secondary-color);
   color: var(--background-color);
   padding: 15px 30px;
   border-radius: 50px 50px;
-  margin: 30px auto;
+  margin: 50px auto;
   font-size: 18px;
   transition: var(--transition);
 }
-.btn-custom:hover {
+.btn-branding:hover {
   background-color: var(--secondary-color);
 }
 .auto-type {
   text-decoration: underline;
+}
+img {
+  border-radius: 10px;
+  transition: var(--transition);
+}
+
+img:hover {
+  opacity: 0.8;
 }
