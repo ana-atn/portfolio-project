@@ -8,7 +8,6 @@
 }
 h1 {
   font-size: 96px;
-
   font-family: var(--heading-font);
 }
 h2 {
@@ -25,7 +24,19 @@ h4 {
   font-weight: 200;
   color: var(--primary-color);
   margin: 20px auto 50px;
+  font-size: 24px;
 }
+
+img {
+  border-radius: 10px;
+  transition: var(--transition);
+  opacity: 0.9;
+}
+
+img:hover {
+  opacity: 1;
+}
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
@@ -51,11 +62,18 @@ h4 {
 .auto-type {
   text-decoration: underline;
 }
-img {
-  border-radius: 10px;
-  transition: var(--transition);
-}
 
-img:hover {
-  opacity: 0.8;
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
 }
