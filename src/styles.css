@@ -67,6 +67,28 @@ nav a:hover,
 nav li.active a {
   color: var(--primary-color);
 }
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 30px 50px 20px;
+  font-family: var(--heading-font);
+  line-height: 2;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact {
+  font-weight: bold;
+}
+.contact a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.contact a:hover {
+  opacity: 60%;
+}
 
 .nav-container {
   padding: 10px 50px;
@@ -82,6 +104,7 @@ nav li.active a {
   color: var(--primary-color);
   padding: 140px 20px;
 }
+
 .section-one {
   background-color: var(--secondary-color);
   padding: 50px 10px;
@@ -147,7 +170,7 @@ nav li.active a {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   h2 {
     font-size: 18px;
@@ -178,5 +201,17 @@ nav li.active a {
   }
   nav {
     font-size: 14px;
+  }
+  nav li {
+    margin-left: 10px;
+  }
+  .nav-container {
+    padding: 10px 30px;
+  }
+
+  .container-projects h1 {
+    font-size: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
   }
 }
