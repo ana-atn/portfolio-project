@@ -89,6 +89,10 @@ hr {
   margin-bottom: 70px;
   margin-top: 60px;
 }
+.project {
+  text-align: left;
+}
+
 .project-title {
   font-size: 28px;
   font-weight: bold;
@@ -109,6 +113,9 @@ hr {
   margin: 20px;
   font-size: 20px;
   font-weight: bold;
+}
+.launch-link {
+  margin-left: 20px;
 }
 
 @media (max-width: 800px) {
@@ -132,5 +139,14 @@ hr {
   .btn-branding {
     padding: 10px 20px;
     font-size: 14px;
+  }
+  .project-title {
+    font-size: 20px;
+  }
+  .project-skills {
+    font-size: 16px;
+  }
+  .img-projects {
+    display: none;
   }
 }
