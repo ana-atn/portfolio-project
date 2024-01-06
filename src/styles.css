@@ -86,4 +86,8 @@ img:hover {
   h4 {
     font-size: 18px;
   }
+  p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
