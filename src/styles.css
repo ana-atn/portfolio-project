@@ -41,6 +41,12 @@ img {
 img:hover {
   opacity: 1;
 }
+hr {
+  border: 1px dashed;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
 
 .hero {
   background-color: var(--background-color);
@@ -52,6 +58,7 @@ img:hover {
   background-color: var(--secondary-color);
   padding: 50px 10px;
 }
+
 .btn-branding {
   background-color: var(--secondary-color);
   color: var(--background-color);
