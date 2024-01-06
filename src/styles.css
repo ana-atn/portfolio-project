@@ -63,7 +63,7 @@ nav a {
   color: var(--background-color);
   text-decoration: none;
 }
-nav li a:hover,
+nav a:hover,
 nav li.active a {
   color: var(--primary-color);
 }
@@ -175,5 +175,8 @@ nav li.active a {
   }
   .img-projects {
     display: none;
+  }
+  nav {
+    font-size: 14px;
   }
 }
