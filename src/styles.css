@@ -4,7 +4,7 @@
   --primary-color: #bd5746;
   --secondary-color: #14223b;
   --background-color: #f1eedd;
-  --transition: all 0.2s ease-in-out;
+  --transition: all 100ms ease-in-out;
 }
 h1 {
   font-size: 96px;
@@ -62,6 +62,7 @@ nav li {
 nav a {
   color: var(--background-color);
   text-decoration: none;
+  transition: var(--transition);
 }
 nav a:hover,
 nav li.active a {
@@ -70,24 +71,32 @@ nav li.active a {
 footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 30px 50px 20px;
+  padding: 20px 50px 5px;
   font-family: var(--heading-font);
   line-height: 2;
 }
 
-.name {
+footer .name {
   font-size: 30px;
   font-weight: bold;
 }
-.contact {
+footer .contact {
   font-weight: bold;
 }
-.contact a {
+footer a {
   text-decoration: none;
   color: var(--secondary-color);
+  transition: var(--transition);
 }
-.contact a:hover {
+footer a:hover {
   opacity: 60%;
+}
+footer .built-by {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  opacity: 0.7;
 }
 
 .nav-container {
@@ -102,7 +111,13 @@ footer {
   background-color: var(--background-color);
   text-align: center;
   color: var(--primary-color);
-  padding: 140px 20px;
+  padding: 160px 20px;
+}
+.hero-about {
+  background-color: var(--background-color);
+  text-align: center;
+  color: var(--primary-color);
+  padding: 100px 20px 70px;
 }
 
 .section-one {
@@ -170,7 +185,7 @@ footer {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 46px;
+    font-size: 42px;
   }
   h2 {
     font-size: 18px;
@@ -189,6 +204,7 @@ footer {
   .btn-branding {
     padding: 10px 20px;
     font-size: 14px;
+    margin: 30px auto;
   }
   .project-title {
     font-size: 20px;
@@ -208,10 +224,25 @@ footer {
   .nav-container {
     padding: 10px 30px;
   }
+  .container-projects {
+    padding: 40px 20px;
+  }
 
   .container-projects h1 {
-    font-size: 30px;
-    margin-bottom: 70px;
-    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .hero-about {
+    padding: 50px 20px 30px;
+  }
+  footer {
+    padding: 20px 30px 10px;
+  }
+  footer .name {
+    font-size: 22px;
+  }
+  footer .built-by {
+    display: none;
   }
 }
